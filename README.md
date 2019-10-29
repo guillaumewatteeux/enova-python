@@ -1,11 +1,11 @@
 # Note!!!
 
-Enova is not the origional author of this cookbook. The poise-python cookbook has been archived.
+Is not the origional author of this cookbook. The poise-python cookbook has been archived.
 As a result, Enova has forked and patched this cookbook for users that still require fixes.
 
 It can be used by adding the following to your berks file:
 ```
-cookbook 'poise-python', git: 'https://github.com/enova/enova-python.git'
+cookbook 'poise-python', git: 'https://github.com/guillaumewatteeux/enova-python.git'
 ```
 
 if you need the install function you'll need to lock to pip 18 currently in your attributes or recipe
@@ -19,7 +19,7 @@ node.default['poise-python']['options']['pip_version'] = '18.0'
 include_recipe 'poise-python'
 ```
 
-# Poise-Python Cookbook [![Build Status](https://travis-ci.org/enova/enova-python.svg?branch=master)](https://travis-ci.org/enova/enova-python)
+# Poise-Python Cookbook [![Build Status](https://travis-ci.org/guillaumewatteeux/enova-python.svg?branch=master)](https://travis-ci.org/guillaumewatteeux/enova-python)
 A [Chef](https://www.chef.io/) cookbook to provide a unified interface for
 installing Python, managing Python packages, and creating virtualenvs.
 
