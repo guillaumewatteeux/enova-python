@@ -1,5 +1,9 @@
 # Poise-Python Changelog
 
+## v1.8.0
+
+* Remove Debian/Ubuntu support (in travis)
+
 ## v1.7.1
 
 * Support for Pip 18.1.

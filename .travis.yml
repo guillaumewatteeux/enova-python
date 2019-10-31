@@ -12,10 +12,6 @@ env:
   global:
     - KITCHEN_YAML=.kitchen.travis.yml
   matrix:
-    - platform=ubuntu-14.04
-    - platform=ubuntu-16.04
-    - platform=ubuntu-18.04
-    - platform=debian-8
     - platform=centos-7
 
 # Don't `bundle install`
